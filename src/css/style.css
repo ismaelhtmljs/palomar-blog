@@ -1,0 +1,39 @@
+.FondKs{
+    background-image: url("../../public/images/Fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    width: auto;
+    height: 500px;
+}
+
+.FondKsTLO{
+    letter-spacing: 0.45em;
+}
+
+.cart-a a{
+    text-decoration: none;
+}
+
+.cart-a a:hover{
+    text-decoration: none;
+}
+
+.img-cart-size{
+    width: 480px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.w-carts{
+    width: 457.19px;
+}
+
+.style-border-cart{
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 970.79px;
+    height: auto;
+}
