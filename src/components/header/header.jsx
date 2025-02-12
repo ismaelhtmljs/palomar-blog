@@ -28,7 +28,7 @@ export default function Header() {
                         </h2>
                     </div>
                     <div className="lg:hidden">
-                        <IoMdMenu onClick={ToggleMenu}/>
+                        <IoMdMenu onClick={ToggleMenu} />
                     </div>
                     <div className="max-lg:hidden">
                         <nav>
@@ -40,17 +40,17 @@ export default function Header() {
                         </nav>
                     </div>
                 </div>
-                <div className={`nav-responsive${IsMenuActive ? '-active' : ''}`}>
-                    <nav>
-                        <TbXboxXFilled className="h-auto w-[25px]" onClick={CloseMenu}/>
-                        <ol className="nav-col flex gap-9 items-center">
-                            <li><Link href="/">Inicio</Link></li>
-                            <li><Link href="#">Blog</Link></li>
-                            <li><Link href="#">Sobre la página</Link></li>
-                        </ol>
-                    </nav>
-                </div>
             </header>
+            <div className={`nav-responsive${IsMenuActive ? '-active' : ''}`}>
+                <nav>
+                    <TbXboxXFilled className="h-auto w-[25px]" onClick={CloseMenu} />
+                    <ol className="nav-col flex gap-9 items-center">
+                        <li><Link href="/">Inicio</Link></li>
+                        <li><Link href="#">Blog</Link></li>
+                        <li><Link href="#">Sobre la página</Link></li>
+                    </ol>
+                </nav>
+            </div>
         </>
     )
 }

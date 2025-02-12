@@ -1,0 +1,6 @@
+@media not all and (min-width: 768px) {
+    .bos-size-footer{
+        width: auto !important;
+        height: auto !important;
+    }
+}
