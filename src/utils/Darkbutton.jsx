@@ -1,29 +1,41 @@
 "use client"
-import { useState,useEffect } from "react";
+import { useState, useEffect } from "react";
 
 export default function DarkButton() {
 
-    const [theme, setThemeColor] = useState(() => {
-        if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-            return "dark"
-        }else{
-            return "light"
-        }
-    });
+    const [theme, setThemeColor] = useState(null);
 
-    useEffect(()=>{
-        if (theme === "dark") {
-            document.querySelector('html').classList.add('dark')
-        }else{
-            document.querySelector('html').classList.remove('dark')
+    useEffect(() => {
+        const UploadTheme = () => {
+            if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                setThemeColor('dark')
+            }else{
+                setThemeColor('light')
+            }
         }
-    },[theme]);
+        UploadTheme();
+
+        window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",UploadTheme);
+        return () => {
+            window.matchMedia("(prefers-color-scheme: dark)").removeEventListener("change",UploadTheme);
+        }
+    },[])
+
+    useEffect(() => {
+        if (theme) {
+            if (theme === "dark") {
+                document.querySelector('html').classList.add('dark')
+            } else {
+                document.querySelector('html').classList.remove('dark')
+            }
+        }
+    }, [theme]);
 
     const DarkToggle = () => {
-        setThemeColor((ThemeColor) => ThemeColor === 'light' ? 'dark':'light')
+        setThemeColor((ThemeColor) => ThemeColor === 'light' ? 'dark' : 'light')
     }
 
-    return(
-        <button type="button" onClick={DarkToggle}>Cambiar a tema <span>{theme === 'light' ? 'oscuro':'claro'}</span></button>
+    return (
+        <button type="button" onClick={DarkToggle}>Cambiar a tema <span>{theme === 'light' ? 'oscuro' : 'claro'}</span></button>
     )
 }
