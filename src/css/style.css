@@ -13,6 +13,14 @@
     letter-spacing: 0.45em;
 }
 
+.shadow-header{
+    box-shadow: 0px 1px 3px 1px #000000;
+}
+
+.FondKsTLO2{
+    letter-spacing: 0.52em;
+}
+
 .cart-a a{
     text-decoration: none;
 }
@@ -36,4 +44,19 @@
     border-radius: 5px;
     width: 970.79px;
     height: auto;
+}
+
+@media not all and (min-width: 640px) {
+    .style-border-cart{
+        max-width: 250px;
+        height: auto;
+    }
+
+    .img-cart-size{
+        max-width: 230px;
+    }
+
+    .w-carts{
+        max-width: 240px;
+    }
 }

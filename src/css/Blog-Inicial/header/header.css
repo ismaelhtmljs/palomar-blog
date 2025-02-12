@@ -1,0 +1,27 @@
+.nav-col{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.nav-responsive{
+    transition: ease-in-out .3s;
+    position: fixed;
+    background-color: #fff;
+    left: 0;
+    top: 0;
+    width: 46%;
+    height: 200px;
+    transform: translateX(-1000px);
+}
+
+.nav-responsive-active{
+    position: fixed;
+    transition: ease-in-out .3s;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 200px;
+    transform: translateX(0);
+    background-color: #fff;
+}

@@ -10,7 +10,7 @@ export default function Home() {
         <div>
           <div>
             <Header />
-            <main>
+            <main className='mb-5'>
               <div>
                 <div className='flex flex-col gap-11'>
                   {/* Fondo de la primera seccion */}
