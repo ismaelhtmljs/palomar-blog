@@ -38,11 +38,13 @@ export default function Footer() {
                                 <FaInstagram className="cursor-pointer size-icon" onClick={ToggleInstagram} />
                             </div>
                         </div>
+                        <hr className="hr-style-global-light lg:hidden"/>
                         <div className="bos-size-footer">
                             <div>
                                 <p>Este sitio web fue creado con la intención de informar y ayudar a solucionar enfermedades de las palomas.</p>
                             </div>
                         </div>
+                        <hr className="hr-style-global-light lg:hidden"/>
                         <div className="bos-size-footer">
                             <div>
                                 <p>&copy;Copyright by Ismaelxd74 official License from 2024-2058</p>

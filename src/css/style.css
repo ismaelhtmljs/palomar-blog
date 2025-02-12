@@ -1,62 +1,48 @@
-.FondKs{
+.FondKs {
     background-image: url("../../public/images/Fondo.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     color: #ffffff;
     text-align: center;
+    box-shadow: 0px 5px 9px 1px #000000;
     width: auto;
     height: 500px;
 }
 
-.FondKsTLO{
+.FondKsTLO {
     letter-spacing: 0.45em;
 }
 
-.shadow-header{
+.shadow-header {
     box-shadow: 0px 1px 3px 1px #000000;
 }
 
-.FondKsTLO2{
+.FondKsTLO2 {
     letter-spacing: 0.52em;
 }
 
-.cart-a a{
+.cart-a a {
     text-decoration: none;
 }
 
-.cart-a a:hover{
+.cart-a a:hover {
     text-decoration: none;
 }
 
-.img-cart-size{
+.img-cart-size {
     width: 480px;
     height: auto;
     border-radius: 10px;
 }
 
-.w-carts{
+.w-carts {
     width: 457.19px;
 }
 
-.style-border-cart{
+.style-border-cart {
     border: 1px solid gray;
     border-radius: 5px;
     width: 970.79px;
     height: auto;
-}
-
-@media not all and (min-width: 640px) {
-    .style-border-cart{
-        max-width: 250px;
-        height: auto;
-    }
-
-    .img-cart-size{
-        max-width: 230px;
-    }
-
-    .w-carts{
-        max-width: 240px;
-    }
 }

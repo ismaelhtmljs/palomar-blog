@@ -10,16 +10,19 @@
     background-color: #fff;
     left: 0;
     top: 0;
-    height: 200px;
+    height: 220px;
+    padding: 10px;
     transform: translateX(-1000px);
 }
 
 .nav-responsive-active{
     position: fixed;
+    border: solid 2px #000000;
     transition: ease-in-out .3s;
     left: 0;
     top: 0;
-    height: 200px;
+    padding: 15px;
+    height: auto;
     transform: translateX(0);
     background-color: #fff;
 }

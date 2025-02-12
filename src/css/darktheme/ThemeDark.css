@@ -1,0 +1,15 @@
+html.dark{
+    background-color: #212020;
+    color: #ffffff;
+}
+
+html.dark header{
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+
+html.dark .nav-responsive-active{
+    background-color: rgb(26, 25, 25);
+    border: 2px solid rgb(151, 76, 151);
+    color: #ffffff;
+}

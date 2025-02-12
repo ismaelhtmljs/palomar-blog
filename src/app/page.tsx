@@ -1,6 +1,7 @@
 import Header from '@/components/header/header'
 import Carts from '@/components/Blog-Inicial/cartas/Carts'
 import Footer from '@/components/footer/footer'
+import '@/css/Blog-Inicial/responsive/responsive.css'
 import '@/css/style.css'
 
 export default function Home() {

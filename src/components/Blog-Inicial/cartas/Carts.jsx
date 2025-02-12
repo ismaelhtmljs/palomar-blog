@@ -8,7 +8,7 @@ export default function Carts() {
                 <div className='w-full'>
                     <div className='flex flex-col items-center gap-10'>
                         {/* carta 1 */}
-                        <div className='style-border-cart flex gap-4 p-2 max-sm:flex-col'>
+                        <div className='style-border-cart cart-responsive flex gap-4 p-2'>
                             <div>
                                 {/* img */}
                                 <img src="/images/cartas-images/Paloma-cart1.jpg" className='img-cart-size' alt="" />
@@ -34,7 +34,7 @@ export default function Carts() {
                             </div>
                         </div>
                         {/* carta 2 */}
-                        <div className='style-border-cart flex gap-4 p-2 max-sm:flex-col'>
+                        <div className='style-border-cart cart-responsive flex gap-4 p-2'>
                             <div>
                                 {/* img */}
                                 <img src="/images/cartas-images/Paloma-raza.jpg" className='img-cart-size' alt="" />
@@ -60,7 +60,7 @@ export default function Carts() {
                             </div>
                         </div>
                         {/* carta 3 */}
-                        <div className='style-border-cart flex gap-4 p-2 max-sm:flex-col'>
+                        <div className='style-border-cart cart-responsive flex gap-4 p-2'>
                             <div>
                                 {/* img */}
                                 <img src="/images/cartas-images/Paloma-caracteristica.jpg" className='img-cart-size' alt="" />
@@ -86,7 +86,7 @@ export default function Carts() {
                             </div>
                         </div>
                         {/* carta 4 */}
-                        <div className='style-border-cart flex gap-4 p-2 max-sm:flex-col'>
+                        <div className='style-border-cart cart-responsive flex gap-4 p-2'>
                             <div>
                                 {/* img */}
                                 <img src="/images/cartas-images/Paloma-enferma.jpg" className='img-cart-size' alt="" />

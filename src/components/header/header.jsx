@@ -3,10 +3,13 @@ import Link from "next/link"
 import { useState } from "react";
 import { IoMdMenu } from "react-icons/io";
 import { TbXboxXFilled } from "react-icons/tb";
+import DarkButton from '@/utils/Darkbutton'
 import '@/css/Blog-Inicial/header/header.css'
+import '@/css/darktheme/ThemeDark.css'
 
 export default function Header() {
 
+    // aside pushbar responsive // 
     const [IsMenuActive, SetMenuActive] = useState(false);
 
     const ToggleMenu = () => {
@@ -30,7 +33,7 @@ export default function Header() {
                     <div className="lg:hidden">
                         <IoMdMenu onClick={ToggleMenu} />
                     </div>
-                    <div className="max-lg:hidden">
+                    <div className="max-lg:hidden flex gap-5">
                         <nav>
                             <ol className="flex gap-9 items-center">
                                 <li><Link href="/">Inicio</Link></li>
@@ -38,6 +41,9 @@ export default function Header() {
                                 <li><Link href="#">Sobre la página</Link></li>
                             </ol>
                         </nav>
+                        <div>
+                            <DarkButton/>
+                        </div>
                     </div>
                 </div>
             </header>
@@ -48,6 +54,7 @@ export default function Header() {
                         <li><Link href="/">Inicio</Link></li>
                         <li><Link href="#">Blog</Link></li>
                         <li><Link href="#">Sobre la página</Link></li>
+                        <DarkButton/>
                     </ol>
                 </nav>
             </div>
