@@ -1,29 +1,7 @@
 "use client"
 import '@/css/style.css'
-import { useEffect } from 'react'
-import ScrollReveal from "scrollreveal";
 
 export default function Carts() {
-
-    useEffect(() => {
-        ScrollReveal().reveal(".left", {
-            duration: 2000,
-            origin: "left",
-            distance: "450px",
-            easing: "ease-in-out",
-            reset: false,
-            viewOffset: { top: 10, right: 0, bottom: 10, left: 0 }
-        });
-        ScrollReveal().reveal(".right", {
-            duration: 2000,
-            origin: "right",
-            distance: "450px",
-            easing: "ease-in-out",
-            reset: false,
-            viewOffset: { top: 10, right: 0, bottom: 10, left: 0 }
-        })
-    }, []);
-
     return (
         <>
             {/* parte de las cartas */}
@@ -31,7 +9,7 @@ export default function Carts() {
                 <div className='w-full'>
                     <div className='flex flex-col items-center gap-10'>
                         {/* carta 1 */}
-                        <div className='style-border-cart cart-responsive flex gap-4 p-2 left'>
+                        <div className='style-border-cart cart-responsive flex gap-4 p-2'>
                             <div>
                                 {/* img */}
                                 <img src="/images/cartas-images/Paloma-cart1.jpg" className='img-cart-size' alt="foto de una paloma normal" loading='lazy' />
@@ -57,7 +35,7 @@ export default function Carts() {
                             </div>
                         </div>
                         {/* carta 2 */}
-                        <div className='style-border-cart cart-responsive flex gap-4 p-2 right'>
+                        <div className='style-border-cart cart-responsive flex gap-4 p-2'>
                             <div>
                                 {/* img */}
                                 <img src="/images/cartas-images/Paloma-raza.jpg" className='img-cart-size' alt="imagen de una paloma de distinta raza" loading='lazy' />
@@ -83,7 +61,7 @@ export default function Carts() {
                             </div>
                         </div>
                         {/* carta 3 */}
-                        <div className='style-border-cart cart-responsive flex gap-4 p-2 left'>
+                        <div className='style-border-cart cart-responsive flex gap-4 p-2'>
                             <div>
                                 {/* img */}
                                 <img src="/images/cartas-images/Paloma-caracteristica.jpg" className='img-cart-size' alt="imagen de las características de una paloma" loading='lazy' />
@@ -109,7 +87,7 @@ export default function Carts() {
                             </div>
                         </div>
                         {/* carta 4 */}
-                        <div className='style-border-cart cart-responsive flex gap-4 p-2 right'>
+                        <div className='style-border-cart cart-responsive flex gap-4 p-2'>
                             <div>
                                 {/* img */}
                                 <img src="/images/cartas-images/Paloma-enferma.jpg" className='img-cart-size' alt="imagen de una paloma enferma" loading='lazy' />
