@@ -36,6 +36,8 @@ export default function DarkButton() {
     }
 
     return (
-        <button type="button" onClick={DarkToggle}>Cambiar a tema <span>{theme === 'light' ? 'oscuro' : 'claro'}</span></button>
+        <>
+        <button type="button" onClick={DarkToggle} className={`style-button${theme === 'light' ? '-dark':'-light'}`}><p>Cambiar a tema <span>{theme === 'light' ? 'oscuro' : 'claro'}</span></p></button>
+        </>
     )
 }

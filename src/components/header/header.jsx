@@ -33,7 +33,7 @@ export default function Header() {
                     <div className="lg:hidden">
                         <IoMdMenu onClick={ToggleMenu} />
                     </div>
-                    <div className="max-lg:hidden flex gap-5">
+                    <div className="max-lg:hidden flex gap-5 items-center">
                         <nav>
                             <ol className="flex gap-9 items-center">
                                 <li><Link href="/">Inicio</Link></li>

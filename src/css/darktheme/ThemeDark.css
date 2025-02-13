@@ -13,3 +13,46 @@ html.dark .nav-responsive-active{
     border: 2px solid rgb(151, 76, 151);
     color: #ffffff;
 }
+
+html.dark .style-button-light{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 5px;
+    border-radius: 10px;
+    transition: ease-in-out .2s;
+}
+
+html.dark .style-button-light:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+html .style-button-dark{
+    background-color: rgb(232, 215, 184);
+    color: #000000;
+    padding: 5px;
+    border-radius: 10px;
+    transition: ease-in-out .2s;
+}
+
+html .style-button-dark:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+html.dark ::selection{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+
+html.dark .dark-style{
+    color: rgb(185, 179, 179);
+}
+
+html.dark .dark-style-des{
+    color: #808080;
+}
+
+html.dark .hr-style-global{
+    background-color: #808080;
+}
