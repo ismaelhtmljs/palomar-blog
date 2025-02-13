@@ -11,7 +11,7 @@
     width: 100%;
     left: 0;
     top: 0;
-    height: auto;
+    height: 100%;
     padding: 10px;
     transform: translateX(-100000px);
 }
@@ -23,7 +23,7 @@
     left: 0;
     top: 0;
     padding: 15px;
-    height: auto;
+    height: 100%;
     transform: translateX(0);
     background-color: #fff;
 }
