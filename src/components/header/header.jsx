@@ -49,7 +49,7 @@ export default function Header() {
             </header>
             <div className={`nav-responsive${IsMenuActive ? '-active' : ''}`}>
                 <nav>
-                    <TbXboxXFilled className="h-auto w-[25px]" onClick={CloseMenu} />
+                    <TbXboxXFilled className="h-auto w-[30px]" onClick={CloseMenu} />
                     <ol className="nav-col flex gap-9 items-center">
                         <li><Link href="/">Inicio</Link></li>
                         <li><Link href="#">Blog</Link></li>
