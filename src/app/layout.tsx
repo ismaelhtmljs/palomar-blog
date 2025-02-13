@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="overflow-x-clip">
       <head>
         <link rel="shortcut icon" href="https://www.zarla.com/images/zarla-i-1x1-2400x2400-20211118-4rgftk8pf7p6byhpfyv8.png?crop=1:1,smart&width=250&dpr=2" type="image/x-icon" />
       </head>
