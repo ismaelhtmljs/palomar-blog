@@ -10,7 +10,6 @@ html.dark header{
 
 html.dark .nav-responsive-active{
     background-color: rgb(26, 25, 25);
-    border: 2px solid rgb(151, 76, 151);
     color: #ffffff;
 }
 
