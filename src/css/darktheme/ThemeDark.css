@@ -31,6 +31,10 @@ html.dark .style-button-light:hover{
     color: #000000;
 }
 
+html.dark .shadow-header{
+    box-shadow: 0px 1px 3px 1px #ffffff;
+}
+
 html .style-button-dark{
     background-color: rgb(232, 215, 184);
     color: #000000;

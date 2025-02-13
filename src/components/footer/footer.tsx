@@ -18,35 +18,29 @@ export default function Footer() {
             <div className="flex justify-center flex-col gap-4 p-3">
                 <div className="text-center">
                     <h1 className="FondKsTLO2 text-2xl font-semibold font-sans flex items-center justify-between gap-2">
-                        <div className="max-md:hidden">
-                            <span>Redes Sociales</span>
-                        </div>
-                        <div>
+                        <div className="marginCenter">
                             PALOMAS <span className="font-normal"><em>para</em></span> VIVIR
                         </div> 
-                        <div className="max-md:hidden">
-                            <span>&copy;copyright</span>
-                        </div>
                     </h1>
                 </div>
                 <div className="p-2">
-                    <div className="flex items-center justify-between max-md:flex-col max-md:gap-3">
+                    <div className="flex items-center justify-between flex-col gap-3">
                         <div className="bos-size-footer">
-                            <div className="flex gap-3 max-md:gap-3">
-                                <span className="max-md:-ml-4 lg:hidden">Redes sociales : </span>
+                            <div className="flex gap-3 justify-center items-center">
+                                <span className="-ml-4">Redes sociales : </span>
                                 <FaGithub className="cursor-pointer size-icon" onClick={ToggleGithub} />
                                 <FaInstagram className="cursor-pointer size-icon" onClick={ToggleInstagram} />
                             </div>
                         </div>
-                        <hr className="hr-style-global-light lg:hidden"/>
+                        <hr className="hr-style-global-light"/>
                         <div className="bos-size-footer">
-                            <div>
+                            <div className="text-center">
                                 <p>Este sitio web fue creado con la intención de informar y ayudar a solucionar enfermedades de las palomas.</p>
                             </div>
                         </div>
-                        <hr className="hr-style-global-light lg:hidden"/>
+                        <hr className="hr-style-global-light"/>
                         <div className="bos-size-footer">
-                            <div>
+                            <div className="text-center">
                                 <p>&copy;Copyright by Ismaelxd74 official License from 2024-2058</p>
                             </div>
                         </div>
