@@ -59,9 +59,30 @@ html.dark .hr-style-global{
 
 /* Media Querys */
 @media only screen and (min-width: 238px) and (max-width: 315px) {
-    html .style-button-dark,
+    html .style-button-dark{
+        background-color: rgb(232, 215, 184);
+        color: #000000;
+        padding: 5px;
+        border-radius: 10px;
+        transition: ease-in-out .2s;
+    }
+    
+    html .style-button-dark:hover{
+        background-color: rgb(232, 215, 184);
+        color: #000000;
+    }
+
     html.dark .style-button-light{
-        pointer-events: none !important;
+        background-color: #000000;
+        color: #ffffff;
+        padding: 5px;
+        border-radius: 10px;
+        transition: ease-in-out .2s;
+    }
+    
+    html.dark .style-button-light:hover{
+        background-color: #000000;
+        color: #ffffff;
     }
 }
 
