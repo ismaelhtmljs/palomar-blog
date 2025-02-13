@@ -13,6 +13,11 @@ html.dark .nav-responsive-active{
     color: #ffffff;
 }
 
+html.dark .nav-responsive{
+    background-color: rgb(26, 25, 25);
+    color: #ffffff;
+}
+
 html.dark .style-button-light{
     background-color: #000000;
     color: #ffffff;
