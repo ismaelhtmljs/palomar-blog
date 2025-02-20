@@ -1,0 +1,12 @@
+.Opacity-animation{
+    animation: Fondo ease-in-out .3s;
+}
+
+@keyframes Fondo {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

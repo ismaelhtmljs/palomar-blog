@@ -1,13 +1,16 @@
 import Header from '@/components/header/header'
 import Carts from '@/components/Blog-Inicial/cartas/Carts'
 import Footer from '@/components/footer/footer'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import '@/css/animation/html.css'
 import '@/css/Blog-Inicial/responsive/responsive.css'
 import '@/css/style.css'
 
 export default function Home() {
   return (
     <>
-      <div>
+      <div className='Opacity-animation'>
         <div>
           <div>
             <Header />

@@ -19,6 +19,13 @@
   margin: 0 auto;
 }
 
+.w-img-slider{
+  width: 545px !important;
+  height: 408.75px !important;
+  object-fit: contain;
+  image-rendering: optimizeQuality;
+}
+
 .hr-style-global {
   border: none; /* Elimina el borde predeterminado */
   height: 2px; /* Grosor de la línea */

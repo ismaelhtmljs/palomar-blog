@@ -2,6 +2,7 @@
 import Link from "next/link"
 import { useState } from "react";
 import { IoMdMenu } from "react-icons/io";
+import { Blog_link,About, Initial_blog } from "@/utils/Enlaces/Links";
 import { TbXboxXFilled } from "react-icons/tb";
 import DarkButton from '@/utils/Darkbutton'
 import '@/css/Blog-Inicial/header/header.css'
@@ -37,7 +38,7 @@ export default function Header() {
                         <nav>
                             <ol className="flex gap-9 items-center">
                                 <li><Link href="/">Inicio</Link></li>
-                                <li><Link href="#">Blog</Link></li>
+                                <li><Link href={Blog_link}>Blog</Link></li>
                                 <li><Link href="#">Sobre la página</Link></li>
                             </ol>
                         </nav>
@@ -52,7 +53,7 @@ export default function Header() {
                     <TbXboxXFilled className="h-auto w-[30px]" onClick={CloseMenu} />
                     <ol className="nav-col flex gap-9 items-center">
                         <li><Link href="/">Inicio</Link></li>
-                        <li><Link href="#">Blog</Link></li>
+                        <li><Link href={Blog_link}>Blog</Link></li>
                         <li><Link href="#">Sobre la página</Link></li>
                         <DarkButton/>
                     </ol>
